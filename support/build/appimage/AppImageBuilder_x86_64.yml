@@ -7,11 +7,11 @@ script:
 AppDir:
   path: AppDir
   app_info:
-    id: org.localsend.localsend_app
-    name: LocalSend
+    id: com.sadsha.sendget
+    name: SendGet
     icon: localsend
     version: 1.18.2
-    exec: localsend_app
+    exec: sendget_app
     exec_args: $@
   apt:
     arch:

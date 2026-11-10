@@ -1,6 +1,5 @@
-name: localsend_app
-description: An open source cross-platform alternative to AirDrop
-homepage: https://localsend.org/
+name: sendget_app
+description: SendGet is an open source, cross-platform app to share files and messages with nearby devices.
 publish_to: "none"
 resolution: workspace
 

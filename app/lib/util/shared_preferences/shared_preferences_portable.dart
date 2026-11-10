@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:localsend_app/util/shared_preferences/shared_preferences_file.dart';
+import 'package:sendget_app/util/shared_preferences/shared_preferences_file.dart';
 import 'package:logging/logging.dart';
 import 'package:meta/meta.dart';
 import 'package:path/path.dart' as path;

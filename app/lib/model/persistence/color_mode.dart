@@ -1,6 +1,6 @@
 enum ColorMode {
   system, // dynamic colors
-  localsend,
+  sendget,
   oled,
   yaru,
   custom, // user-defined seed color

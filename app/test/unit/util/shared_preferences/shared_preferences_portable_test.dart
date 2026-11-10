@@ -1,4 +1,4 @@
-import 'package:localsend_app/util/shared_preferences/shared_preferences_portable.dart';
+import 'package:sendget_app/util/shared_preferences/shared_preferences_portable.dart';
 import 'package:path/path.dart' as path;
 import 'package:test/test.dart';
 
@@ -6,7 +6,7 @@ void main() {
   test('should put settings.json next to the executable', () {
     expect(
       buildSettingsPath(
-        executablePath: path.join('opt', 'localsend', 'localsend_app'),
+        executablePath: path.join('opt', 'localsend', 'sendget_app'),
         fallbackDirectory: () => fail('The fallback should not be used when the executable is known'),
       ),
       path.join('opt', 'localsend', 'settings.json'),

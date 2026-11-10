@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:localsend_app/gen/strings.g.dart';
-import 'package:localsend_app/model/state/server/server_state.dart';
-import 'package:localsend_app/pages/home_page.dart';
-import 'package:localsend_app/pages/home_page_controller.dart';
-import 'package:localsend_app/pages/receive_history_page.dart';
-import 'package:localsend_app/pages/web_share_page.dart';
-import 'package:localsend_app/provider/animation_provider.dart';
-import 'package:localsend_app/provider/local_ip_provider.dart';
-import 'package:localsend_app/provider/network/server/server_provider.dart';
-import 'package:localsend_app/provider/settings_provider.dart';
-import 'package:localsend_app/util/ip_helper.dart';
-import 'package:localsend_app/widget/animations/initial_fade_transition.dart';
-import 'package:localsend_app/widget/column_list_view.dart';
-import 'package:localsend_app/widget/custom_icon_button.dart';
-import 'package:localsend_app/widget/local_send_logo.dart';
-import 'package:localsend_app/widget/responsive_list_view.dart';
-import 'package:localsend_app/widget/rotating_widget.dart';
+import 'package:sendget_app/gen/strings.g.dart';
+import 'package:sendget_app/model/state/server/server_state.dart';
+import 'package:sendget_app/pages/home_page.dart';
+import 'package:sendget_app/pages/home_page_controller.dart';
+import 'package:sendget_app/pages/receive_history_page.dart';
+import 'package:sendget_app/pages/web_share_page.dart';
+import 'package:sendget_app/provider/animation_provider.dart';
+import 'package:sendget_app/provider/local_ip_provider.dart';
+import 'package:sendget_app/provider/network/server/server_provider.dart';
+import 'package:sendget_app/provider/settings_provider.dart';
+import 'package:sendget_app/util/ip_helper.dart';
+import 'package:sendget_app/widget/animations/initial_fade_transition.dart';
+import 'package:sendget_app/widget/column_list_view.dart';
+import 'package:sendget_app/widget/custom_icon_button.dart';
+import 'package:sendget_app/widget/send_get_logo.dart';
+import 'package:sendget_app/widget/responsive_list_view.dart';
+import 'package:sendget_app/widget/rotating_widget.dart';
 import 'package:localsend_isolates/util/sleep.dart';
 import 'package:refena_flutter/addons.dart';
 import 'package:refena_flutter/refena_flutter.dart';
@@ -81,7 +81,7 @@ class _ReceiveTabState extends State<ReceiveTab> {
                               return RotatingWidget(
                                 duration: const Duration(seconds: 15),
                                 spinning: serverState != null && animations && activeTab == HomeTab.receive,
-                                child: const LocalSendLogo(withText: false),
+                                child: const SendGetLogo(withText: false),
                               );
                             },
                           ),

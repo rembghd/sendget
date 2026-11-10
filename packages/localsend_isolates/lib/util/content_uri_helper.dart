@@ -51,11 +51,11 @@ class ContentUriHelper {
   }
 
   /// Converts
-  /// content://com.android.externalstorage.documents/tree/primary%3ALocalSend
+  /// content://com.android.externalstorage.documents/tree/primary%3ASendGet
   /// to
-  /// content://com.android.externalstorage.documents/tree/primary%3ALocalSend/document/primary%3ALocalSend
+  /// content://com.android.externalstorage.documents/tree/primary%3ASendGet/document/primary%3ASendGet
   /// or
-  /// content://com.android.externalstorage.documents/tree/primary%3ALocalSend/document/primary%3ALocalSend%2FsubFolder
+  /// content://com.android.externalstorage.documents/tree/primary%3ASendGet/document/primary%3ASendGet%2FsubFolder
   static String convertTreeUriToDocumentUri({
     required String treeUri,
     String? suffix,
@@ -71,9 +71,9 @@ class ContentUriHelper {
   }
 
   /// Converts
-  /// content://com.android.externalstorage.documents/tree/primary%3ALocalSend/subFolder
+  /// content://com.android.externalstorage.documents/tree/primary%3ASendGet/subFolder
   /// to
-  /// content://com.android.externalstorage.documents/tree/primary%3ALocalSend%2FsubFolder
+  /// content://com.android.externalstorage.documents/tree/primary%3ASendGet%2FsubFolder
   static String encodeTreeUri(String uri) {
     final treeIndex = uri.indexOf('/tree/');
     if (treeIndex == -1) {

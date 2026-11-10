@@ -1,4 +1,4 @@
-package org.localsend.localsend_app
+package com.sadsha.sendget
 
 import android.content.Context
 import android.content.Intent

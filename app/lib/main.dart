@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:localsend_app/config/init.dart';
-import 'package:localsend_app/config/init_error.dart';
-import 'package:localsend_app/config/theme.dart';
-import 'package:localsend_app/gen/strings.g.dart';
-import 'package:localsend_app/model/persistence/color_mode.dart';
-import 'package:localsend_app/pages/home_page.dart';
-import 'package:localsend_app/provider/local_ip_provider.dart';
-import 'package:localsend_app/provider/network/server/server_provider.dart';
-import 'package:localsend_app/provider/settings_provider.dart';
-import 'package:localsend_app/util/native/platform_check.dart';
-import 'package:localsend_app/util/ui/dynamic_colors.dart';
-import 'package:localsend_app/widget/watcher/life_cycle_watcher.dart';
-import 'package:localsend_app/widget/watcher/shortcut_watcher.dart';
-import 'package:localsend_app/widget/watcher/tray_watcher.dart';
-import 'package:localsend_app/widget/watcher/window_watcher.dart';
+import 'package:sendget_app/config/init.dart';
+import 'package:sendget_app/config/init_error.dart';
+import 'package:sendget_app/config/theme.dart';
+import 'package:sendget_app/gen/strings.g.dart';
+import 'package:sendget_app/model/persistence/color_mode.dart';
+import 'package:sendget_app/pages/home_page.dart';
+import 'package:sendget_app/provider/local_ip_provider.dart';
+import 'package:sendget_app/provider/network/server/server_provider.dart';
+import 'package:sendget_app/provider/settings_provider.dart';
+import 'package:sendget_app/util/native/platform_check.dart';
+import 'package:sendget_app/util/ui/dynamic_colors.dart';
+import 'package:sendget_app/widget/watcher/life_cycle_watcher.dart';
+import 'package:sendget_app/widget/watcher/shortcut_watcher.dart';
+import 'package:sendget_app/widget/watcher/tray_watcher.dart';
+import 'package:sendget_app/widget/watcher/window_watcher.dart';
 import 'package:localsend_isolates/isolate.dart';
 import 'package:refena_flutter/addons.dart';
 import 'package:refena_flutter/refena_flutter.dart';
@@ -36,14 +36,14 @@ Future<void> main(List<String> args) async {
     RefenaScope.withContainer(
       container: container,
       child: TranslationProvider(
-        child: const LocalSendApp(),
+        child: const SendGetApp(),
       ),
     ),
   );
 }
 
-class LocalSendApp extends StatelessWidget {
-  const LocalSendApp();
+class SendGetApp extends StatelessWidget {
+  const SendGetApp();
 
   @override
   Widget build(BuildContext context) {
