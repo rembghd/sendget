@@ -31,7 +31,7 @@ class AboutPage extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 15),
         children: [
           const SizedBox(height: 20),
-          const LocalSendLogo(withText: true),
+          const SadShaShareLogo(withText: true),
           Text(
             '© ${DateTime.now().year} Tien Do Nam',
             textAlign: TextAlign.center,

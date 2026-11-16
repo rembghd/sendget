@@ -1,1 +1,1 @@
-Cross-Platform file sharing solution via WiFi.
+SadSha Share - send files between nearby phones over local Wi-Fi, no internet needed.

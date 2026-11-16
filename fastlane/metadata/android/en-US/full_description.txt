@@ -1,7 +1,3 @@
-LocalSend is an open source app to share files and messages between nearby devices using the local wifi network.
-The communication between devices is entirely end-to-end encrypted via HTTPS.
-No Internet required. No tracking*. No ads.
+SadSha Share is a free, open-source app to share files and messages between nearby devices using the local Wi-Fi network. No internet connection, no servers, no accounts - just pick a file and send it to the phone next to you.
 
-Currently, this app is available on Android, iOS, macOS, Windows and Linux. You can find all download options on the official homepage.
-
-*The operating system may still gather usage data.
+Based on LocalSend (Apache-2.0) by Tienisto and contributors: https://github.com/localsend/localsend

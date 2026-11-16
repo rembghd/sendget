@@ -574,7 +574,7 @@ class SettingsTab extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 20),
-            const LocalSendLogo(withText: true),
+            const SadShaShareLogo(withText: true),
             const SizedBox(height: 5),
             ref
                 .watch(versionProvider)

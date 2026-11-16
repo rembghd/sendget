@@ -1,3 +1,14 @@
+# SadSha Share
+
+SadSha Share is a free app to send files between two phones over the local
+Wi-Fi network - no internet needed. Pick a file, pick the nearby phone, done.
+
+This app is a rebrand of **LocalSend** (https://github.com/localsend/localsend,
+Apache-2.0, by Tienisto and contributors), forked as `rembghd/sendget` and
+rebranded by SadSha. The original LocalSend README follows below.
+
+---
+
 # LocalSend
 
 [![CI status][ci-badge]][ci-workflow]

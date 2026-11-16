@@ -1,5 +1,5 @@
 name: localsend_app
-description: An open source cross-platform alternative to AirDrop
+description: SadSha Share - share files with nearby devices over the local network, no internet needed (based on LocalSend)
 homepage: https://localsend.org/
 publish_to: "none"
 resolution: workspace
